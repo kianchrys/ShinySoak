@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buss_website.css">
+    <title>Chryslyr ShinySoak</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <!-- <a href="#" ><img src="logo.png" class="logo"></a>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="Menu">Menu</a></li>
+                <li><a href="Whats new">What's New</a></li>
+                <li><a href="Contact">Contact</a></li>
+                <li><a href="About_us">About Us</a></li> 
+            </ul> -->
+
+
+        </header>
+        <div class="content">
+            <div class="textbox">
+            <h2> It's not Just a Soap <br>It's <span>Chryslyr ShinySoak</span> </h2>
+            <p>
+                kian gwapo idolkian gwapo idolkian gwapo idolkian gwapo idolkian gwapo idolkian gwapo
+                kian gwapo idolkian gwapo idolkian gwapo idolkian gwapo idolkian gwapo idol
+                kian gwapo idolkian gwapo idolkian gwapo idolkian gwapo idolkian gwapo idolkian gwapo idol</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div class="imgbox">
+            <img src="photo_1.png" class="Lemon">
+        </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="photo_1 (2) - Copy.png" onclick="imgSlider('photo_1.png');changeCircleColor('#e0bd3f')"></li>
+            <li><img src="photo_2 (2) - Copy.png" onclick="imgSlider('photo_2.png');changeCircleColor('#008000')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="fb.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="tiktok (2).png" alt="Tiktok"></a></li>
+            <li><a href="#"><img src="ig.png" alt="Instagram"></a></li>
+
+        </ul>
+    </section>
+     
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.Lemon').src = anything;
+        }
+
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    
+    </script>
+</body>
+</html>

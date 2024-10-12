@@ -1,0 +1,39 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 100px 20px;
+    height: 100vh; /* Full height for each section */
+}
+
+#home { background: #f4a261; }
+#about { background: #2a9d8f; }
+#services { background: #264653; }
+#contact { background: #e76f51; }
